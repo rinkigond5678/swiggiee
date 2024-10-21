@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "name": "swiggy-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"json-server -p 3009 -w db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
